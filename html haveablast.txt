@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Have A Blast Chiswick</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Have A Blast Chiswick</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#parties">Kid's Parties</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#booking">Booking & Prices</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Welcome to Have A Blast Chiswick!</h2>
+        <p>Where every birthday is a blast!</p>
+    </section>
+
+    <section id="parties">
+        <h2>Kid's Parties</h2>
+        <p>We offer a variety of fun themes and activities for kids of all ages.</p>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Learn more about our mission to create unforgettable birthday experiences.</p>
+    </section>
+
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <p>Check out some photos from our recent parties!</p>
+    </section>
+
+    <section id="booking">
+        <h2>Booking & Prices</h2>
+        <p>Find out how to book your party and see our pricing options.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Have A Blast Chiswick. All rights reserved.</p>
+    </footer>
+</body>
+</html>
